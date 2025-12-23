@@ -919,7 +919,7 @@ function loadPosterLogo() {
 function drawPoster(data, assets = {}) {
   const width = 340;
   const height = 548;
-  const ratio = Math.min(window.devicePixelRatio || 1, 2);
+  const ratio = Math.min(window.devicePixelRatio || 1, 3);
   const canvas = document.createElement("canvas");
   canvas.width = width * ratio;
   canvas.height = height * ratio;
