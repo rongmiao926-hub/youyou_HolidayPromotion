@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>柚柚AI · 赛博代码测试</title>
+  <meta name="description" content="30秒测出你的赛博代码，让朋友更懂你的沟通方式。">
+  <meta name="theme-color" content="#ff6b4a">
+  <link rel="preload" as="image" href="答题背景板.webp" type="image/webp">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="app">
+    <header class="hero" id="hero">
+      <div class="hero-screen">
+        <div class="hero-illustration" aria-hidden="true">
+          <img class="hero-decor hero-decor-left" src="decor-left.png" alt="" />
+          <img class="hero-decor hero-decor-right" src="decor-right.png" alt="" />
+          <img class="hero-decor hero-illust-1" src="hero-illust-1.svg" alt="" />
+          <img class="hero-decor hero-illust-2" src="hero-illust-2.svg" alt="" />
+          <img class="hero-decor hero-illust-3" src="hero-illust-3.svg" alt="" />
+        </div>
+        <div class="hero-card">
+          <div class="hero-card-inner">
+            <h1 class="hero-title">你的聊天代码是什么？<br>你和谁最合拍？</h1>
+            <p class="hero-subtitle">30s开启答案</p>
+            <button class="btn hero-start" id="startBtn" type="button">开启测试</button>
+          </div>
+        </div>
+        <div class="hero-foot">
+          <p>柚柚AI出品</p>
+          <p class="hero-link">https://youyouai.enactflow.com/</p>
+        </div>
+      </div>
+    </header>
+
+    <section class="quiz hidden" id="quiz">
+      <div class="quiz-screen">
+        <div class="quiz-illustration" aria-hidden="true">
+          <img class="quiz-illust illust-1" src="quiz-illust-1.svg" alt="" />
+          <img class="quiz-illust illust-2" src="quiz-illust-2.svg" alt="" />
+          <img class="quiz-illust illust-3" src="quiz-illust-3.svg" alt="" />
+          <img class="quiz-illust illust-4" src="quiz-illust-4.svg" alt="" />
+          <img class="quiz-illust illust-5" src="quiz-illust-5.svg" alt="" />
+        </div>
+        <div class="quiz-shell">
+          <div class="quiz-question">
+            <div class="progress quiz-progress" aria-hidden="true">
+              <div class="progress-bar" id="progressBar"></div>
+              <span class="progress-text" id="questionIndex">1 / 8</span>
+            </div>
+            <p class="quiz-label">假如你收到——</p>
+            <div class="quiz-question-row">
+              <img class="quiz-icon" src="quiz-icon.png" alt="" />
+              <div class="quiz-question-box">
+                <p class="quiz-question-text" id="questionText">题干文字</p>
+              </div>
+            </div>
+            <p class="quiz-label quiz-label-secondary">你会说：</p>
+          </div>
+          <div class="quiz-options">
+            <div class="options" id="options"></div>
+          </div>
+        </div>
+        <button class="quiz-back" id="backBtn" type="button">
+          <span class="quiz-back-circle" aria-hidden="true">
+            <img class="quiz-back-circle-img" src="quiz-back-circle.svg" alt="" />
+            <img class="quiz-back-icon" src="quiz-back-arrow.svg" alt="" />
+          </span>
+          <span class="quiz-back-text">上一题</span>
+        </button>
+      </div>
+    </section>
+
+    <section class="result hidden" id="result">
+      <div class="result-screen">
+        <div class="result-top">
+          <div class="result-decor" aria-hidden="true">
+            <img class="decor decor-left" src="decor-left.png" alt="" />
+            <img class="decor decor-right" src="decor-right.png" alt="" />
+          </div>
+          <div class="result-card result-summary">
+            <div class="result-header">
+              <div class="result-code-block">
+                <p class="result-code-label">你的聊天代码是</p>
+                <p class="result-code" id="resultCode">RBGU</p>
+              </div>
+              <p class="result-desc" id="resultDesc">结果描述</p>
+            </div>
+            <div class="axis-list" id="axisList"></div>
+            <div class="result-buddy">
+              <span id="resultBuddy">柚柚AI中的【】是你的完美嘴替</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="match-card">
+          <p class="match-label">和你最合拍的是</p>
+          <p class="match-name" id="matchName">xxxx</p>
+          <p class="match-desc" id="matchDesc">说明文字说明文字</p>
+        </div>
+
+        <div class="result-actions">
+          <button class="btn btn-poster" id="posterBtn" type="button">生成分享图</button>
+          <a class="btn btn-download" id="downloadBtn" href="https://youyouai.enactflow.com/" rel="noopener">
+            下载柚柚AI 解锁你和ta的默契报告
+          </a>
+          <div class="result-actions-row">
+            <button class="btn btn-secondary" id="restartBtn" type="button">再测一次</button>
+            <button class="btn btn-secondary" id="shareBtn" type="button">分享测试</button>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div class="overlay hidden" id="posterOverlay" role="dialog" aria-modal="true" aria-label="分享图片">
+    <div class="overlay-mask" id="posterMask"></div>
+    <div class="overlay-content">
+      <div class="overlay-hint">长按图片保存到相册</div>
+      <img id="posterImage" alt="赛博代码分享图" />
+      <button class="btn ghost overlay-close" id="posterClose" type="button">关闭</button>
+    </div>
+  </div>
+
+  <div class="share-overlay hidden" id="shareOverlay" role="dialog" aria-modal="true" aria-label="分享提示">
+    <div class="overlay-mask" id="shareMask"></div>
+    <div class="share-hint" role="note">
+      <span class="share-hint-text">点击右上角<br>选择分享到朋友圈</span>
+      <span class="share-hint-arrow" aria-hidden="true"></span>
+    </div>
+  </div>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <noscript>
+    <div class="no-script">需要启用 JavaScript 才能完成测试。</div>
+  </noscript>
+
+  <script src="app.js"></script>
+</body>
+</html>

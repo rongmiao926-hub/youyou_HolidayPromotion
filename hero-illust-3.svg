@@ -1,0 +1,33 @@
+<svg preserveAspectRatio="none" width="100%" height="100%" overflow="visible" style="display: block;" viewBox="0 0 80.2846 50.2082" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Illustration detail">
+<g id="Illustration detail_2">
+<g id="Vector 9638" filter="url(#filter0_i_29_792)">
+<path d="M47.5087 5.13877C68.6184 -0.601687 72.8639 10.1047 72.0778 19.5471C71.7683 23.2648 68.6662 25.9093 65.0533 26.839C60.0886 28.1165 61.2505 28.4815 59.023 31.357C58.4977 32.0351 57.8181 32.5947 57.3033 33.2808C56.2459 34.6901 55.1053 36.6424 47.8546 36.4422C19.677 35.6639 0.779504 40.5886 0.022861 32.1057C-0.0238884 31.5816 0.038938 31.0443 0.193037 30.5412C1.83638 25.1757 8.70259 27.2066 9.78293 23.3778C16.9934 -2.17641 40.1255 4.13415 45.4848 5.27108C46.1572 5.41372 46.8454 5.31914 47.5087 5.13877Z" fill="url(#paint0_linear_29_792)"/>
+</g>
+<path id="Vector 9643" d="M58.0792 12.2953L55.3332 8.23665" stroke="var(--stroke-0, #1A1B1D)" stroke-width="1.2824" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector 9642" d="M58.0891 32.8352C59.2212 29.6363 63.7962 23.9527 73.0392 26.8094" stroke="var(--stroke-0, #1A1B1D)" stroke-width="1.28239" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector 9639" d="M60.1859 14.8056L63.2184 18.1521" stroke="var(--stroke-0, #1A1B1D)" stroke-width="1.2824" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<path id="Vector 9639_2" d="M52.8299 13.4394C52.8299 13.4394 52.3136 14.6712 52.862 15.5931C53.4103 16.5151 55.6967 17.4554 55.6967 17.4554" stroke="var(--stroke-0, #1A1B1D)" stroke-width="1.28239" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector 9635" d="M72.1814 14.8517C70.7651 10.5051 65.3745 2.31226 55.143 4.31326" stroke="var(--stroke-0, #1A1B1D)" stroke-width="1.03728" stroke-linecap="round"/>
+<path id="Vector 9636" d="M72.1675 14.6893C70.8368 9.55243 66.7247 3.99699 60.7474 2.78519" stroke="var(--stroke-0, #1A1B1D)" stroke-width="1.03728" stroke-linecap="round"/>
+<path id="Vector 9637" d="M72.1652 14.6906C70.8438 9.49114 70.2582 7.5542 65.4393 3.55648" stroke="var(--stroke-0, #1A1B1D)" stroke-width="1.03728" stroke-linecap="round"/>
+</g>
+<defs>
+<filter id="filter0_i_29_792" x="0.00771957" y="3.52545" width="72.1572" height="36.1313" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feMorphology radius="0.414914" operator="erode" in="SourceAlpha" result="effect1_innerShadow_29_792"/>
+<feOffset dy="2.48948"/>
+<feGaussianBlur stdDeviation="2.48948"/>
+<feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+<feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 1 0"/>
+<feBlend mode="normal" in2="shape" result="effect1_innerShadow_29_792"/>
+</filter>
+<linearGradient id="paint0_linear_29_792" x1="36.0821" y1="3.52545" x2="36.0821" y2="37.1672" gradientUnits="userSpaceOnUse">
+<stop stop-color="#FF9C6A"/>
+<stop offset="1" stop-color="#EA611C"/>
+</linearGradient>
+</defs>
+</svg>
