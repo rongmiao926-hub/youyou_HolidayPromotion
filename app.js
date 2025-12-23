@@ -268,82 +268,331 @@ const questions = [
         delta: responseStyles.mellow
       }
     ]
+  },
+  {
+    text: "如果你收到「我今天心情不太好，但也不想多说。」你的回复会是？",
+    options: [
+      {
+        title: "先接住",
+        desc: "我在呢，想不想换个话题缓缓？",
+        delta: responseStyles.spark
+      },
+      {
+        title: "先理清",
+        desc: "可以说重点吗？我帮你理清卡点。",
+        delta: responseStyles.clear
+      },
+      {
+        title: "温柔陪伴",
+        desc: "不想说也没关系，我陪你就好。",
+        delta: responseStyles.warm
+      },
+      {
+        title: "低频回应",
+        desc: "好，那你先休息，有需要再找我～",
+        delta: responseStyles.mellow
+      }
+    ]
+  },
+  {
+    text: "如果你收到「能不能帮我选个礼物？我很纠结。」你的回复会是？",
+    options: [
+      {
+        title: "立刻开挑",
+        desc: "当然！你要什么风格，我现在给你出方案。",
+        delta: responseStyles.spark
+      },
+      {
+        title: "先问条件",
+        desc: "预算和对象告诉我，我帮你筛。",
+        delta: responseStyles.clear
+      },
+      {
+        title: "温柔协助",
+        desc: "没问题，你说说对方喜好。",
+        delta: responseStyles.warm
+      },
+      {
+        title: "给点方向",
+        desc: "你先选几个，我再帮你定。",
+        delta: responseStyles.mellow
+      }
+    ]
+  },
+  {
+    text: "如果你收到「今晚想找个人聊聊。」你的回复会是？",
+    options: [
+      {
+        title: "马上开聊",
+        desc: "我在！现在就聊，想从哪开始？",
+        delta: responseStyles.spark
+      },
+      {
+        title: "先定重点",
+        desc: "可以，先说要聊什么重点。",
+        delta: responseStyles.clear
+      },
+      {
+        title: "温柔接住",
+        desc: "我在这儿，你慢慢说就好。",
+        delta: responseStyles.warm
+      },
+      {
+        title: "延后回应",
+        desc: "我可能晚点有空，先等等～",
+        delta: responseStyles.mellow
+      }
+    ]
+  },
+  {
+    text: "如果你收到「我刚被领导点名了，好慌。」你的回复会是？",
+    options: [
+      {
+        title: "马上稳住",
+        desc: "别慌，我陪你把重点准备出来。",
+        delta: responseStyles.spark
+      },
+      {
+        title: "列出清单",
+        desc: "先列问题和材料，我们按顺序补。",
+        delta: responseStyles.clear
+      },
+      {
+        title: "温柔安抚",
+        desc: "可以理解你紧张，我在，慢慢来。",
+        delta: responseStyles.warm
+      },
+      {
+        title: "先缓一缓",
+        desc: "先喘口气，等你稳定了再说。",
+        delta: responseStyles.mellow
+      }
+    ]
+  },
+  {
+    text: "如果你收到「你愿意当我组会的救场吗？」你的回复会是？",
+    options: [
+      {
+        title: "我来！",
+        desc: "我来！把内容发我，我马上接。",
+        delta: responseStyles.spark
+      },
+      {
+        title: "先给资料",
+        desc: "我可以，但先发我大纲和时间。",
+        delta: responseStyles.clear
+      },
+      {
+        title: "温柔答应",
+        desc: "没问题，我一起帮你撑场。",
+        delta: responseStyles.warm
+      },
+      {
+        title: "稍后确认",
+        desc: "我这会儿不确定，晚点回你。",
+        delta: responseStyles.mellow
+      }
+    ]
+  },
+  {
+    text: "如果你收到「我们要不要把这件事说清楚？」你的回复会是？",
+    options: [
+      {
+        title: "直接对齐",
+        desc: "可以，直接说清楚，我愿意对齐。",
+        delta: responseStyles.spark
+      },
+      {
+        title: "先列事实",
+        desc: "把事实和诉求列出来再谈。",
+        delta: responseStyles.clear
+      },
+      {
+        title: "温和沟通",
+        desc: "好呀，我们慢慢说清楚。",
+        delta: responseStyles.warm
+      },
+      {
+        title: "延后再说",
+        desc: "现在不太想谈，改天再说吧。",
+        delta: responseStyles.mellow
+      }
+    ]
+  },
+  {
+    text: "如果你收到「能教教我怎么做这件事吗？」你的回复会是？",
+    options: [
+      {
+        title: "带你走一遍",
+        desc: "可以，我直接带你走一遍流程。",
+        delta: responseStyles.spark
+      },
+      {
+        title: "先说目标",
+        desc: "可以，但你先把目标讲清楚。",
+        delta: responseStyles.clear
+      },
+      {
+        title: "慢慢教你",
+        desc: "没问题，我慢慢教你。",
+        delta: responseStyles.warm
+      },
+      {
+        title: "先自己试",
+        desc: "我可能讲不细，你先试试吧。",
+        delta: responseStyles.mellow
+      }
+    ]
+  },
+  {
+    text: "如果你收到「今天好累，先不聊啦。」你的回复会是？",
+    options: [
+      {
+        title: "晚点再聊",
+        desc: "好，那你休息，我晚点再找你。",
+        delta: responseStyles.spark
+      },
+      {
+        title: "收到",
+        desc: "收到，有事再说，先休息。",
+        delta: responseStyles.clear
+      },
+      {
+        title: "温柔关照",
+        desc: "辛苦了，早点休息，我在。",
+        delta: responseStyles.warm
+      },
+      {
+        title: "简单回应",
+        desc: "好，晚点再聊。",
+        delta: responseStyles.mellow
+      }
+    ]
   }
 ];
 
 const baseProfiles = {
   RAGU: {
     title: "热场共情",
-    desc: "说话直率又有活力，先接住情绪再顺势推进话题。"
+    desc: "你直球表达又有能量，习惯先接住情绪，再把气氛带起来并推进对话。你会给出明确回应，让对方知道下一步该怎么走。"
   },
   RAGV: {
     title: "掌控关怀",
-    desc: "表达直接、外放，但会先照顾感受再把节奏拉稳。"
+    desc: "你直率外放但节奏稳，善于照顾感受同时把沟通拉回到清晰路径。你喜欢把事说清楚，也会给对方足够安全感。"
   },
   RALU: {
     title: "爽快干练",
-    desc: "直球高能、反应快，喜欢快速给出可执行的回应。"
+    desc: "你反应快、决策快，喜欢把需求说透并迅速给出可执行的回应。你更在意效率，沟通中很少拖泥带水。"
   },
   RALV: {
     title: "强势执行",
-    desc: "目标感强，话说得明白，习惯把问题拆开并推进结果。"
+    desc: "你目标明确、表达直接，擅长拆解问题、推进落地，让事情往前走。你会主动抓关键点，把讨论变成行动。"
   },
   RBGU: {
     title: "安静直觉",
-    desc: "不爱铺垫，话到点上，但更注重氛围的自然流动。"
+    desc: "你话不多但抓重点，直觉敏锐，顺着氛围自然回应却不失清晰。你习惯用最少的话表达关键态度。"
   },
   RBGV: {
     title: "稳准守护",
-    desc: "话少但精准，先照顾情绪再给出踏实的安排。"
+    desc: "你精准务实、节奏稳，先安住情绪再给方案，让人踏实又安心。你是那种说得少但很可靠的陪伴。"
   },
   RBLU: {
     title: "冷静速决",
-    desc: "理性直给、节奏灵活，擅长迅速抓住关键点。"
+    desc: "你理性直给、思路清晰，能快速提炼关键信息并给出判断。你更看重结论，话里往往带着方向感。"
   },
   RBLV: {
     title: "理性控场",
-    desc: "沉稳克制、条理清楚，喜欢让沟通有序可控。"
+    desc: "你克制冷静、结构感强，重视边界与逻辑，让对话始终可控。你习惯先理清再推进，稳中见锋芒。"
   },
   WAGU: {
     title: "暖场分享",
-    desc: "语气温柔、能量外放，擅长共情和带动气氛。"
+    desc: "你温柔又有行动力，擅长共情和带动气氛，让交流更温暖有活力。你常能把人拉回好情绪里。"
   },
   WAGV: {
     title: "贴心主持",
-    desc: "温和又热络，注重关怀与秩序，让人安心跟随。"
+    desc: "你温和外放、节奏稳定，喜欢把关怀和秩序安排到位，让人安心。你会照顾细节，让互动更顺畅。"
   },
   WALU: {
     title: "轻松解压",
-    desc: "语气柔和、反应快，用轻松方式化解压力。"
+    desc: "你语气柔和但反应快，常用轻松方式化解压力，让人放松下来。你擅长把紧张的话题变得好说。"
   },
   WALV: {
     title: "有序调和",
-    desc: "待人柔软但逻辑清晰，擅长安排和协调节奏。"
+    desc: "你温柔中带理性，善于平衡情绪与秩序，在复杂情境里做出安排。你会给出清晰步骤，让人更安心。"
   },
   WBGU: {
     title: "温柔倾听",
-    desc: "安静而共情，习惯先倾听再给出自然的回应。"
+    desc: "你安静共情、倾听到位，先理解对方再给回应，温柔又自然。你更愿意陪着对方把话说完。"
   },
   WBGV: {
     title: "安稳疗愈",
-    desc: "温柔克制、步调稳，擅长给人持续的情绪支持。"
+    desc: "你步调稳、支持感强，像持续的情绪靠山，让对话更被理解和安抚。你能让人慢慢卸下防备。"
   },
   WBLU: {
     title: "低调观察",
-    desc: "话不多但看得准，倾向以冷静方式给出建议。"
+    desc: "你低调但看得准，先观察再给建议，回应简洁却有效。你不抢话，却总能点中关键。"
   },
   WBLV: {
     title: "稳妥规划",
-    desc: "语气温和、结构清晰，喜欢按步骤把事说透。"
+    desc: "你温和有条理，重视规划与步骤，把事情说清楚并稳妥推进。你会把复杂问题整理成可执行的计划。"
   }
 };
 
-const resultExtrasByCode = {
-  default: {
-    buddySlot: "【】",
-    matchName: "xxxx",
-    matchDesc: "说明文字说明文字"
-  }
+const buddySlotByCode = {
+  RAGU: "及时夸夸",
+  RAGV: "暖心捧场",
+  RALU: "聊天鬼才",
+  RALV: "冷静压制",
+  RBGU: "暧昧推拉",
+  RBGV: "暖心捧场",
+  RBLU: "已读乱回",
+  RBLV: "深思熟虑",
+  WAGU: "热情回应",
+  WAGV: "马屁精",
+  WALU: "钓成翘嘴",
+  WALV: "高情商拒绝",
+  WBGU: "暖心捧场",
+  WBGV: "高情商拒绝",
+  WBLU: "活人微死",
+  WBLV: "深思熟虑"
+};
+
+const compatibilityPairs = {
+  RAGU: "WBLV",
+  WBLV: "RAGU",
+  RAGV: "WBLU",
+  WBLU: "RAGV",
+  RALU: "WBGV",
+  WBGV: "RALU",
+  RALV: "WBGU",
+  WBGU: "RALV",
+  RBGU: "WALV",
+  WALV: "RBGU",
+  RBGV: "WALU",
+  WALU: "RBGV",
+  RBLU: "WAGV",
+  WAGV: "RBLU",
+  RBLV: "WAGU",
+  WAGU: "RBLV"
+};
+
+const compatibilityReasons = {
+  RAGU_WBLV:
+    "你负责直球带动气氛，TA擅长规划节奏，热度与秩序刚好互补，聊天既有冲劲也不乱。",
+  RAGV_WBLU:
+    "你主动照顾感受，TA冷静观察补逻辑，让对话既温暖又有判断，推进更稳更清楚。",
+  RALU_WBGV:
+    "你快速给方案，TA稳稳接住情绪，效率和安定感一起在线，既能解决问题也能被理解。",
+  RALV_WBGU:
+    "你推动结果，TA耐心倾听补共情，目标清晰又不失温度，沟通更容易达成一致。",
+  RBGU_WALV:
+    "你直觉回应，TA有序调和，讨论更清晰也更好落地，彼此能把话说透又不伤人。",
+  RBGV_WALU:
+    "你稳住场面，TA轻松解压，紧张时能同时被安抚和松绑，气氛回暖得很自然。",
+  RBLU_WAGV:
+    "你抓重点给判断，TA贴心主持控节奏，沟通推进更顺畅，决策更快也更有共识。",
+  RBLV_WAGU:
+    "你理性控场，TA热情带动，逻辑与气氛形成好平衡，对话既有方向也不失热度。"
 };
 
 const axisMax = axisMeta.reduce((acc, axis) => {
@@ -529,11 +778,11 @@ function showResult() {
 
   const tips = buildSocialTips(axisResults);
   if (resultDesc) {
-    resultDesc.textContent = posterDesc;
+    resultDesc.textContent = profile.desc;
   }
   if (resultBuddy) {
     const buddySlot = extras.buddySlot || "【】";
-    resultBuddy.textContent = `柚柚AI中的${buddySlot}是你的完美嘴替`;
+    resultBuddy.innerHTML = `柚柚AI中的 <span class="buddy-slot">${buddySlot}</span> 是你的完美嘴替`;
   }
   if (matchName) {
     matchName.textContent = extras.matchName || "xxxx";
@@ -620,8 +869,34 @@ function buildShareText(code, profileTitle, tips) {
   return `我的赛博代码是「${code}」（${profileTitle}）。互动偏好：${tipTitles}。用柚柚AI测出来的，快来试试！`;
 }
 
+function truncateText(text, maxLen) {
+  const chars = Array.from(String(text || ""));
+  if (chars.length <= maxLen) {
+    return chars.join("");
+  }
+  return `${chars.slice(0, maxLen).join("")}……`;
+}
+
+function getCompatibilityKey(code) {
+  const match = compatibilityPairs[code];
+  if (!match) {
+    return null;
+  }
+  return [code, match].sort().join("_");
+}
+
 function getResultExtras(code) {
-  return resultExtrasByCode[code] || resultExtrasByCode.default;
+  const buddySlot = buddySlotByCode[code] || "【】";
+  const matchCode = compatibilityPairs[code];
+  const matchName = matchCode || "xxxx";
+  const pairKey = getCompatibilityKey(code);
+  const reason =
+    (pairKey && compatibilityReasons[pairKey]) || "说明文字说明文字";
+  return {
+    buddySlot,
+    matchName,
+    matchDesc: truncateText(reason, 25)
+  };
 }
 
 async function createPosterImage() {
