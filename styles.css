@@ -280,7 +280,7 @@ p {
   display: grid;
   gap: 12px;
   position: relative;
-  padding-top: 110px;
+  padding-top: 102px;
 }
 
 .quiz-illustration {
@@ -457,6 +457,7 @@ p {
   position: relative;
   z-index: 1;
   transform: rotate(-90deg);
+  margin-left: -1px;
 }
 
 .quiz-back-text {

@@ -932,7 +932,6 @@ posterBtn.addEventListener("click", async () => {
     return;
   }
   posterBtn.disabled = true;
-  showToast("正在生成分享图");
   try {
     const dataUrl = await createPosterImage();
     if (!dataUrl) {
