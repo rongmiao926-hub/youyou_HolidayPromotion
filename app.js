@@ -474,67 +474,67 @@ const questions = [
 const baseProfiles = {
   RAGU: {
     title: "热场共情",
-    desc: "你直球表达又有能量，习惯先接住情绪，再把气氛带起来并推进对话。你会给出明确回应，让对方知道下一步该怎么走。"
+    desc: "你直球表达又有能量，习惯先接住情绪，再把气氛带起来并推进对话。你会给出明确回应，让对方知道下一步该怎么走。你不怕把情绪说透，也愿意把节奏带到更积极的方向。"
   },
   RAGV: {
     title: "掌控关怀",
-    desc: "你直率外放但节奏稳，善于照顾感受同时把沟通拉回到清晰路径。你喜欢把事说清楚，也会给对方足够安全感。"
+    desc: "你直率外放但节奏稳，善于照顾感受同时把沟通拉回到清晰路径。你喜欢把事说清楚，也会给对方足够安全感。你更在意对话有序推进，既热络又可靠。"
   },
   RALU: {
     title: "爽快干练",
-    desc: "你反应快、决策快，喜欢把需求说透并迅速给出可执行的回应。你更在意效率，沟通中很少拖泥带水。"
+    desc: "你反应快、决策快，喜欢把需求说透并迅速给出可执行的回应。你更在意效率，沟通中很少拖泥带水。你往往先给方案，再陪对方把细节落实。"
   },
   RALV: {
     title: "强势执行",
-    desc: "你目标明确、表达直接，擅长拆解问题、推进落地，让事情往前走。你会主动抓关键点，把讨论变成行动。"
+    desc: "你目标明确、表达直接，擅长拆解问题、推进落地，让事情往前走。你会主动抓关键点，把讨论变成行动。你喜欢把边界讲清楚，再快速定下行动顺序。"
   },
   RBGU: {
     title: "安静直觉",
-    desc: "你话不多但抓重点，直觉敏锐，顺着氛围自然回应却不失清晰。你习惯用最少的话表达关键态度。"
+    desc: "你话不多但抓重点，直觉敏锐，顺着氛围自然回应却不失清晰。你习惯用最少的话表达关键态度。你更愿意让对方舒服地说完，再用一句点醒重点。"
   },
   RBGV: {
     title: "稳准守护",
-    desc: "你精准务实、节奏稳，先安住情绪再给方案，让人踏实又安心。你是那种说得少但很可靠的陪伴。"
+    desc: "你精准务实、节奏稳，先安住情绪再给方案，让人踏实又安心。你是那种说得少但很可靠的陪伴。你会先确认情况，再把每一步讲清楚。"
   },
   RBLU: {
     title: "冷静速决",
-    desc: "你理性直给、思路清晰，能快速提炼关键信息并给出判断。你更看重结论，话里往往带着方向感。"
+    desc: "你理性直给、思路清晰，能快速提炼关键信息并给出判断。你更看重结论，话里往往带着方向感。你习惯把复杂问题简化成可执行的判断。"
   },
   RBLV: {
     title: "理性控场",
-    desc: "你克制冷静、结构感强，重视边界与逻辑，让对话始终可控。你习惯先理清再推进，稳中见锋芒。"
+    desc: "你克制冷静、结构感强，重视边界与逻辑，让对话始终可控。你习惯先理清再推进，稳中见锋芒。你会用清晰框架把话题稳稳落地。"
   },
   WAGU: {
     title: "暖场分享",
-    desc: "你温柔又有行动力，擅长共情和带动气氛，让交流更温暖有活力。你常能把人拉回好情绪里。"
+    desc: "你温柔又有行动力，擅长共情和带动气氛，让交流更温暖有活力。你常能把人拉回好情绪里。你愿意主动接住话题，并把互动推向更轻松的氛围。"
   },
   WAGV: {
     title: "贴心主持",
-    desc: "你温和外放、节奏稳定，喜欢把关怀和秩序安排到位，让人安心。你会照顾细节，让互动更顺畅。"
+    desc: "你温和外放、节奏稳定，喜欢把关怀和秩序安排到位，让人安心。你会照顾细节，让互动更顺畅。你善于在不冒犯的前提下把话题推进到底。"
   },
   WALU: {
     title: "轻松解压",
-    desc: "你语气柔和但反应快，常用轻松方式化解压力，让人放松下来。你擅长把紧张的话题变得好说。"
+    desc: "你语气柔和但反应快，常用轻松方式化解压力，让人放松下来。你擅长把紧张的话题变得好说。你会用轻松的节奏，让对方更愿意开口。"
   },
   WALV: {
     title: "有序调和",
-    desc: "你温柔中带理性，善于平衡情绪与秩序，在复杂情境里做出安排。你会给出清晰步骤，让人更安心。"
+    desc: "你温柔中带理性，善于平衡情绪与秩序，在复杂情境里做出安排。你会给出清晰步骤，让人更安心。你让对话有温度，也有明确方向。"
   },
   WBGU: {
     title: "温柔倾听",
-    desc: "你安静共情、倾听到位，先理解对方再给回应，温柔又自然。你更愿意陪着对方把话说完。"
+    desc: "你安静共情、倾听到位，先理解对方再给回应，温柔又自然。你更愿意陪着对方把话说完。你用不打断的方式，让人感到被认真对待。"
   },
   WBGV: {
     title: "安稳疗愈",
-    desc: "你步调稳、支持感强，像持续的情绪靠山，让对话更被理解和安抚。你能让人慢慢卸下防备。"
+    desc: "你步调稳、支持感强，像持续的情绪靠山，让对话更被理解和安抚。你能让人慢慢卸下防备。你给出的回应不多，但足够稳定。"
   },
   WBLU: {
     title: "低调观察",
-    desc: "你低调但看得准，先观察再给建议，回应简洁却有效。你不抢话，却总能点中关键。"
+    desc: "你低调但看得准，先观察再给建议，回应简洁却有效。你不抢话，却总能点中关键。你更擅长用简短判断把对话拉回重点。"
   },
   WBLV: {
     title: "稳妥规划",
-    desc: "你温和有条理，重视规划与步骤，把事情说清楚并稳妥推进。你会把复杂问题整理成可执行的计划。"
+    desc: "你温和有条理，重视规划与步骤，把事情说清楚并稳妥推进。你会把复杂问题整理成可执行的计划。你让人感到踏实，因为节奏一直可控。"
   }
 };
 
@@ -558,41 +558,41 @@ const buddySlotByCode = {
 };
 
 const compatibilityPairs = {
-  RAGU: "WBLV",
-  WBLV: "RAGU",
-  RAGV: "WBLU",
-  WBLU: "RAGV",
-  RALU: "WBGV",
-  WBGV: "RALU",
-  RALV: "WBGU",
-  WBGU: "RALV",
-  RBGU: "WALV",
-  WALV: "RBGU",
-  RBGV: "WALU",
-  WALU: "RBGV",
-  RBLU: "WAGV",
-  WAGV: "RBLU",
-  RBLV: "WAGU",
-  WAGU: "RBLV"
+  RAGU: "WAGV",
+  WAGV: "RAGU",
+  RAGV: "WAGU",
+  WAGU: "RAGV",
+  RALU: "WALV",
+  WALV: "RALU",
+  RALV: "WALU",
+  WALU: "RALV",
+  RBGU: "WBGV",
+  WBGV: "RBGU",
+  RBGV: "WBGU",
+  WBGU: "RBGV",
+  RBLU: "WBLV",
+  WBLV: "RBLU",
+  RBLV: "WBLU",
+  WBLU: "RBLV"
 };
 
 const compatibilityReasons = {
-  RAGU_WBLV:
-    "你负责直球带动气氛，TA擅长规划节奏，热度与秩序刚好互补，聊天既有冲劲也不乱。",
-  RAGV_WBLU:
-    "你主动照顾感受，TA冷静观察补逻辑，让对话既温暖又有判断，推进更稳更清楚。",
-  RALU_WBGV:
-    "你快速给方案，TA稳稳接住情绪，效率和安定感一起在线，既能解决问题也能被理解。",
-  RALV_WBGU:
-    "你推动结果，TA耐心倾听补共情，目标清晰又不失温度，沟通更容易达成一致。",
-  RBGU_WALV:
-    "你直觉回应，TA有序调和，讨论更清晰也更好落地，彼此能把话说透又不伤人。",
-  RBGV_WALU:
-    "你稳住场面，TA轻松解压，紧张时能同时被安抚和松绑，气氛回暖得很自然。",
-  RBLU_WAGV:
-    "你抓重点给判断，TA贴心主持控节奏，沟通推进更顺畅，决策更快也更有共识。",
-  RBLV_WAGU:
-    "你理性控场，TA热情带动，逻辑与气氛形成好平衡，对话既有方向也不失热度。"
+  RAGU_WAGV:
+    "你们都愿意主动带动，也更能共情，但表达一个直给一个含蓄，节奏一快一稳，氛围被照顾得刚刚好。",
+  RAGV_WAGU:
+    "同样热情主动，沟通重点和情绪都能被照顾，一个稳住节奏一个拉起氛围，聊起来顺畅又安心。",
+  RALU_WALV:
+    "你们都喜欢把问题讲清楚并推进，只是表达方式一快一稳，逻辑同频却不刻板，行动更易落地。",
+  RALV_WALU:
+    "你负责清晰推进，TA善于柔和过渡，逻辑一致又不会太硬，讨论高效但不压迫。",
+  RBGU_WBGV:
+    "你们都偏温柔倾听，情绪先被接住再谈问题，一个更直接一个更稳妥，互动更持久。",
+  RBGV_WBGU:
+    "同样温和共情，一个稳住局面一个更愿意先开口，彼此能拉近距离也能保有安全感。",
+  RBLU_WBLV:
+    "你们都理性克制、看重效率，一个快准判断一个稳妥补充，沟通更清楚也更可靠。",
+  RBLV_WBLU:
+    "你把结构和边界讲清，TA补上灵活回应，思路一致却不僵硬，合作更顺畅。"
 };
 
 const axisMax = axisMeta.reduce((acc, axis) => {
@@ -727,25 +727,8 @@ function showResult() {
   const tempoSentence = axisResults[3].isPos
     ? "你更随性，顺着当下节奏走。"
     : "你更稳妥，喜欢节奏可控。";
-  const posterDirectSentence = axisResults[0].isPos
-    ? "你说话直给、不绕弯。"
-    : "你表达含蓄、留有余地。";
-  const posterInitiativeSentence = axisResults[1].isPos
-    ? "习惯主动发起和推动对话。"
-    : "更偏回应型，等对方抛球。";
-  const posterEmpathySentence = axisResults[2].isPos
-    ? "很会共情，先接住情绪再给回应。"
-    : "更偏理性，先分析再回应。";
-  const posterTempoSentence = axisResults[3].isPos
-    ? "节奏随性灵活，能顺着当下氛围快速调整，让对话自然流动、轻松不压迫。"
-    : "节奏稳妥清晰，更偏按部就班推进，让互动有序可控。";
-  const posterLines = [
-    posterDirectSentence,
-    posterInitiativeSentence,
-    posterEmpathySentence,
-    posterTempoSentence
-  ];
-  const posterDesc = posterLines.join(" ");
+  const posterDesc = profile.desc;
+  const posterLines = [posterDesc];
   const resultName = `${code} ${profile.title}`;
   const extras = getResultExtras(code);
 
@@ -781,8 +764,8 @@ function showResult() {
     resultDesc.textContent = profile.desc;
   }
   if (resultBuddy) {
-    const buddySlot = extras.buddySlot || "【】";
-    resultBuddy.innerHTML = `柚柚AI中的 <span class="buddy-slot">${buddySlot}</span> 是你的完美嘴替`;
+    const buddySlot = extras.buddySlot || "完美嘴替";
+    resultBuddy.innerHTML = `柚柚AI中的<span class="buddy-slot">${buddySlot}</span>是你的完美嘴替`;
   }
   if (matchName) {
     matchName.textContent = extras.matchName || "xxxx";
@@ -886,7 +869,7 @@ function getCompatibilityKey(code) {
 }
 
 function getResultExtras(code) {
-  const buddySlot = buddySlotByCode[code] || "【】";
+  const buddySlot = buddySlotByCode[code] || "完美嘴替";
   const matchCode = compatibilityPairs[code];
   const matchName = matchCode || "xxxx";
   const pairKey = getCompatibilityKey(code);
@@ -1036,7 +1019,7 @@ function drawPoster(data, assets = {}) {
   ctx.fillStyle = "#717171";
   ctx.font = "8px \"PingFang SC\", system-ui, sans-serif";
   ctx.textAlign = "left";
-  drawParagraph(ctx, "下载柚柚AI\n解锁你和ta的默契程度", 96, 510, 120, 10);
+  drawParagraph(ctx, "下载柚柚AI\n解锁你和ta的默契报告", 96, 511, 120, 10);
   ctx.textAlign = "right";
   ctx.fillText("扫描二维码进入测试", 273, 521);
 
