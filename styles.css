@@ -610,6 +610,7 @@ p {
 .result-code-block {
   display: flex;
   flex-direction: column;
+  align-self: start;
 }
 
 .result-code-label {
@@ -618,6 +619,7 @@ p {
   font-weight: 600;
   color: #000;
   white-space: nowrap;
+  line-height: 1.2;
 }
 
 .result-code {
@@ -636,6 +638,8 @@ p {
   width: 170px;
   max-width: 100%;
   justify-self: end;
+  padding-left: 4px;
+  align-self: start;
   text-align: left;
   line-break: strict;
   word-break: normal;

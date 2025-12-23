@@ -681,14 +681,14 @@ function drawPoster(data, assets = {}) {
   ctx.font = "16px \"DouyinSans\", \"PingFang SC\", system-ui, sans-serif";
   ctx.fillText("你的聊天代码是", 199, 38);
 
-  ctx.font = "40px \"DouyinSans\", \"PingFang SC\", system-ui, sans-serif";
+  ctx.font = "700 36px \"DouyinSans\", \"PingFang SC\", system-ui, sans-serif";
   ctx.fillText(data.code, 199, 54);
 
   const posterLines = data.posterLines?.length
     ? data.posterLines
     : [data.posterDesc || data.desc];
   ctx.font = "10px \"PingFang SC\", system-ui, sans-serif";
-  drawParagraph(ctx, posterLines.join("\n"), 202, 98, 105, 14);
+  drawParagraph(ctx, posterLines.join("\n"), 202, 102, 105, 14);
 
   const axisMap = Object.fromEntries((data.axes || []).map((axis) => [axis.key, axis]));
   const barWidth = 282;
